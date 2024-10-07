@@ -1,6 +1,6 @@
 import "./Header.css";
 import CTA from "../Headers/CTA";
-import me from "../../assets/Nalina.jpeg";
+import me from "../../assets/me.png";
 import HeaderSection from "./HeaderSection";
 const Header = () => {
   return (

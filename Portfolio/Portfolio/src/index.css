@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-style: none;
+  font-style: normal;
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -46,10 +46,11 @@ h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 section > h1,
 section > h5 {
@@ -90,13 +91,11 @@ a:hover {
   background: var(--color-primary);
   color: var(--color-bg);
 }
-.mypics img {
+.img {
   display: block;
   width: 100%;
-  height: 100%;
-
-  object-fit: cover;
 }
+
 /****************MEDAI QUERY (MEDIUM DEVICE)***************** */
 @media screen and (max-width: 1024px) {
   .container {
