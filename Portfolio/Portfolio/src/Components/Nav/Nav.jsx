@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
@@ -6,6 +6,7 @@ import { BiBook } from "react-icons/bi";
 import { BiMessageSquareDots } from "react-icons/bi";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
+
   return (
     <nav>
       <a

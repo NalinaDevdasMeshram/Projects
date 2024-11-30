@@ -49,8 +49,7 @@ h1 {
   font-size: 3rem;
 }
 section {
-  margin-top: 8rem;
-  height: 100vh;
+  margin-top: 10rem;
 }
 section > h1,
 section > h5 {
@@ -61,6 +60,8 @@ section > h5 {
 section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
 }
 .text-light {
   color: var(--color-light);

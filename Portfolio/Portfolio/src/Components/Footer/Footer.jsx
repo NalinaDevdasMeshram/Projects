@@ -8,30 +8,46 @@ import { CiTwitter } from "react-icons/ci";
 const Footer = () => {
   return (
     <footer>
-      <h2>Nalina Mehsram</h2>
-      <div>
-        <p>Home</p>
-        <p>About me</p>
-        <p>Experience</p>
-        <p>portfolio</p>
-        <p>Contact</p>
+      <a href="#" className="logo">
+        Nalina Meshram
+      </a>
+      <ul className="promolinks">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <div className="footer_social">
+        <a href="">
+          <FaLinkedin />
+        </a>
+        <a href="">
+          <FaFacebookSquare />
+        </a>
+        <a href="">
+          <FaGithub />
+        </a>
+        <a href="">
+          <SiLeetcode />
+        </a>
+        <a href="">
+          <CiTwitter />
+        </a>
       </div>
-      <a href="">
-        <FaLinkedin />
-      </a>
-      <a href="">
-        <FaFacebookSquare />
-      </a>
-      <a href="">
-        <FaGithub />
-      </a>
-      <a href="">
-        <SiLeetcode />
-      </a>
-      <a href="">
-        <CiTwitter />
-      </a>
-      <h5>Nalina Meshram.All right reversed</h5>
+      <div className="footer_copyright">
+        <h5>&copy;Nalina Meshram.All right reversed</h5>
+      </div>
     </footer>
   );
 };

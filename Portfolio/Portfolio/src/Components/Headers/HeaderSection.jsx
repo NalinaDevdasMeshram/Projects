@@ -10,7 +10,7 @@ const HeaderSection = () => {
       <a href="https://github.com" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://leetcode.com" target="_blank">
+      <a href="https://leetcode.com/u/meshramnalu16/" target="_blank">
         <SiLeetcode />
       </a>
     </div>
