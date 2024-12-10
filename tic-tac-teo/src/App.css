@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.btn {
+  margin: 1rem;
+  margin-left: 50%;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: orange;
+  border: 1px solid black;
+}
+.gridCell {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
